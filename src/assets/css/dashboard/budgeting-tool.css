@@ -1,0 +1,32 @@
+.salam-img{
+    padding: 0px 8px 6px 0px;
+    width: 35px;
+}
+
+.font-20{
+    font-size: 20px;
+}
+.font-17{
+    font-size: 17px;
+}
+
+.text-green{
+    color: #57C25C !important;
+}
+
+.padding-newsletter{
+    margin: 10px 300px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .padding-newsletter{
+        margin: 0px 5px;
+    }
+    
+
+    .m-p-0{
+        padding: 0px;
+    }
+
+}

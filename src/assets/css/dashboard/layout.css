@@ -1,0 +1,161 @@
+body {
+  background-color: #fbfbfb;
+}
+
+.text-black {
+  color: black;
+}
+
+@media (min-width: 991.98px) {
+  /* main {
+      padding-left: 240px;
+    } */
+}
+
+.h-50px {
+  height: 45px;
+}
+
+.border-left {
+  border-left: 2px solid grey !important;
+}
+
+.justify-end {
+  justify-content: space-between;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  width: 230px;
+  z-index: 600;
+}
+
+.border-bottom {
+  border-bottom: 3px solid grey !important;
+  border-left: 0.0625rem solid #fff !important;
+  border-right: 0.0625rem solid #fff !important;
+  border-bottom: 0.0625rem solid #fff !important;
+}
+
+.border-none {
+  border: 0.0625rem solid #fff !important;
+}
+
+.ripple {
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+.ripple:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+/* .sidebar .active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  } */
+
+.list-group-item.active {
+  z-index: 2;
+  color: black !important;
+  background-color: #e3dbdb !important;
+  border-color: none !important;
+  border-left: 3px solid black !important;
+}
+
+.header-search input {
+  width: 40% !important;
+  padding-right: 0px;
+  display: inline !important;
+}
+
+.sugg {
+  width: 20%;
+  position: absolute;
+  left: 68%;
+}
+
+.header-input{
+  width: 20% !important;
+
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.m-left-05 {
+  margin-left: 0.6rem;
+}
+
+.cross {
+  display: none;
+}
+
+.d-ml {
+  margin-left: 53%;
+}
+
+.disp-inline {
+  display: inline !important;
+}
+
+.max-width-30 {
+  max-width: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .d-sm-none {
+    display: none;
+  }
+
+  .header-input{
+    width: 40% !important;
+  
+  }
+
+  .sugg {
+    width: 40%;
+    position: absolute;
+    left: 10%;
+  }
+  
+
+  .d-ml {
+    margin-left: 3%;
+  }
+
+  .d-none-sm {
+    display: none;
+  }
+
+  .mbl-font-13 {
+    font-size: 13px;
+    padding-top: 5px;
+  }
+
+  .cross {
+    display: block;
+    font-size: 25px;
+    padding: 6px 15px;
+  }
+
+  .m-padding-name {
+    padding: 0px;
+    padding-right: 3px;
+  }
+}

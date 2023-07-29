@@ -1,0 +1,36 @@
+.active-rate {
+  background-color: #57c25c !important;
+  color: white;
+}
+
+.bg-green {
+  background-color: #57c25c !important;
+}
+
+.justify-center {
+  justify-content: space-around;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.d-px-4 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .d-px-4 {
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+
+  .m-height {
+    min-height: 290px;
+  }
+
+  .m-p-0{
+    padding: 0px;
+  }
+}

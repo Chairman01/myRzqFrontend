@@ -1,0 +1,25 @@
+.bottom-bottom {
+  border-bottom: 2px solid;
+}
+
+
+.d-p0{
+  padding: 0px;
+}
+
+.d-px-5{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .d-p0{
+    padding-left: 10px;
+  }
+
+  .d-px-5{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+}

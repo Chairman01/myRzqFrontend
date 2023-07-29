@@ -1,0 +1,43 @@
+.custom-table thead tr th {
+  color: #57c25c;
+  font-weight: 400;
+}
+
+.custom-table thead tr th:hover {
+  background-color: rgba(92, 181, 38, 0.2);
+}
+
+.status-padding {
+  padding: 5px 15px;
+}
+
+.width-pill {
+  width: 208px;
+}
+
+.watchlist-bg {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.border-radius-8 {
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .watchlist-table {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .w-table {
+    overflow-x: scroll;
+  }
+
+  .mp-0 {
+    padding: 0px !important;
+  }
+
+  .th-min-width {
+    min-width: 100px !important;
+  }
+}

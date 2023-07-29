@@ -1,0 +1,94 @@
+.pricing-card {
+  background: #ffffff;
+  border-radius: 16px !important;
+}
+
+.height-415 {
+  height: 415px;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+ul {
+  list-style: none;
+}
+
+.points li::before {
+  content: "\2022";
+  color: #57c25c;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.btn-bg {
+  background-color: #f4f5f7;
+}
+.border-radius-40 {
+  border-radius: 40px;
+}
+
+.curves {
+  background-image: url("assets/img/pricing/waves.png");
+}
+
+/* .waves {
+  position: absolute;
+  bottom: -179px;
+} */
+
+.bg-pricing {
+  position: absolute;
+  bottom: -179px;
+  z-index: -999;
+}
+
+.pricing-button {
+  background-color: #dee1e7 !important;
+}
+
+.border-radius {
+  border-radius: 30px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .m-mb-5 {
+    margin-bottom: 3rem;
+  }
+  .choose-plan {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .bg-pricing {
+    position: absolute;
+    bottom: 28px;
+    z-index: -999;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .bg-pricing {
+    position: absolute;
+    top: 85%;
+    z-index: -999;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .bg-pricing {
+    position: absolute;
+    top: 80%;
+    z-index: -999;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .bg-pricing {
+    position: absolute;
+    top: 70%;
+    z-index: -999;
+  }
+}

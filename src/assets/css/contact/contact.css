@@ -1,0 +1,62 @@
+.location-card {
+  min-height: 400px;
+}
+
+.location-data {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.or-img {
+  position: absolute;
+  left: 91%;
+  width: 100%;
+}
+
+.t-img {
+  position: absolute;
+  bottom: 0px;
+  width: 215px;
+  height: 174px;
+  right: 0px;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(180deg);
+}
+
+.back-card {
+  min-height: 700px;
+  position: relative;
+  bottom: 600px;
+}
+
+.text-back {
+  text-align: center;
+  padding-left: 80px;
+}
+
+.triangle {
+  background-image: url("/src/assets/img/contact/triangle.png");
+  background-repeat: no-repeat;
+  height: 1090px;
+  width: 100%;
+  background-position: center;
+  background-size: 100%;
+  position: absolute;
+  top: 200px;
+}
+
+.mt-contact {
+  margin-top: 300px;
+}
+
+.container-contact{
+  max-height: 781px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .mt-contact {
+    margin-top: 80px;
+  }
+
+
+}
